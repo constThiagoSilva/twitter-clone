@@ -17,7 +17,7 @@ import {
 
 export const ProfileSideBar = () => {
   return (
-    <div className="h-full w-[10%] md:w-[15%] lg:w-[25%] 2xl:w-[15%] p-2">
+    <div className="h-full w-[10%] md:w-[15%] lg:w-[25%] 2xl:w-[15%] p-1">
       <div className="h-full w-full flex justify-between items-center flex-col">
         <div className="flex-1 w-full flex flex-col items-center lg:items-start">
           <div className="h-[60px] w-[60px] flex items-center justify-center rounded-full cursor-pointer text-white text-[40px] hover:bg-gray-600 transition-all mb-2">
