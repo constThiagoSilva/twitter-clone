@@ -14,7 +14,7 @@ import ProfileImage from "../../assets/profile.jpeg";
 
 export const Feed = () => {
   return (
-    <div className="w-[90%] h-full border-x border-gray-600 overflow-y-scroll relative">
+    <div className="flex-1 h-full border-x border-gray-600 overflow-y-scroll relative">
       <header className="w-full h-[60px] p-3 flex items-center justify-between absolute top-0 right-0 left-0  text-white ">
         <span className="font-medium">Página Inicial</span>
         <StarIcon className="text-lg" />
@@ -67,7 +67,7 @@ export const Feed = () => {
               </div>
             </div>
             <div className="flex items-center absolute top-0 right-0 ">
-              <DotsIcon className="text-gray-600 text-[24px]" />
+              <DotsIcon className="text-gray-600 text-[24px] cursor-pointer" />
             </div>
           </div>
           <div className="w-[80%] flex justify-between items-center mt-2 text-gray-600">
