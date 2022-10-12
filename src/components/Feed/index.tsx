@@ -20,7 +20,7 @@ export const Feed = () => {
         <StarIcon className="text-lg" />
       </header>
 
-      <div className="mt-[60px] p-3 w-full border-b border-gray-600">
+      <div className="mt-[60px] p-3 w-full border-b border-gray-400">
         <div className="w-full flex items-center justify-center">
           <img
             src={ProfileImage}
@@ -30,7 +30,7 @@ export const Feed = () => {
           <input
             type="text"
             placeholder="O que está acontecendo?"
-            className="bg-gray-900 flex-1 h-full focus:outline-none text-white text-[20px] placeholder:font-light ml-3"
+            className="bg-gray-900 flex-1 h-full focus:outline-none text-white text-[20px] placeholder:text-gray-300 ml-3"
           />
         </div>
         <div className="w-full h-[80px] p-2 flex items-center justify-between flex-col md:flex-row">
@@ -42,14 +42,14 @@ export const Feed = () => {
             <DateIcon className="ml-4 cursor-pointer" />
             <LocationIcon className="ml-4 cursor-pointer opacity-40" />
           </div>
-          <button className="h-[45px] w-[110px] p-2 flex items-center justify-center rounded-full cursor-pointer bg-blue-500 text-white text-[18px] hover:brightness-95 transition-all mb-1">
+          <button className="h-[45px] w-[110px] p-2 flex items-center justify-center rounded-full cursor-pointer bg-blue-500 text-white text-[18px] hover:brightness-95 transition-all mb-1 font-bold">
             Tweetar
           </button>
         </div>
       </div>
 
       <main className="w-full">
-        <section className="w-full border-y border-gray-600 flex items-center justify-between flex-col p-2 ">
+        <section className="w-full border-y border-gray-500 flex items-center justify-between flex-col p-2 ">
           <div className="w-full flex items-center justify-between relative">
             <div className="flex flex-1 items-center">
               <img
@@ -60,17 +60,17 @@ export const Feed = () => {
               <div className="flex items-start flex-col ml-2">
                 <div className="flex items-center">
                   <h3 className="text-[18px] text-white font-medium">thigas</h3>
-                  <h1 className="text-[16px] text-gray-600 ml-1">@thiago</h1>
-                  <span className="text-[16px] text-gray-600 ml-1">20 h</span>
+                  <h1 className="text-[16px] text-gray-300 ml-1">@thiago</h1>
+                  <span className="text-[16px] text-gray-300 ml-1">20 h</span>
                 </div>
                 <p className="text-white text-[18px]">Oi</p>
               </div>
             </div>
             <div className="flex items-center absolute top-0 right-0 ">
-              <DotsIcon className="text-gray-600 text-[24px] cursor-pointer" />
+              <DotsIcon className="text-gray-300 text-[24px] cursor-pointer" />
             </div>
           </div>
-          <div className="w-[80%] flex justify-between items-center mt-2 text-gray-600">
+          <div className="w-[80%] flex justify-between items-center mt-2 text-gray-300">
             <div className="cursor-pointer flex items-center">
             <CommentIcon className="text-[24px]"/>
             </div>
