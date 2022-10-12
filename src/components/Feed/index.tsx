@@ -14,7 +14,7 @@ import ProfileImage from "../../assets/profile.jpeg";
 
 export const Feed = () => {
   return (
-    <div className="flex-1 h-full border-x border-gray-600 overflow-y-scroll relative">
+    <div className="flex-1 h-full border-x border-gray-600 overflow-y-scroll relative ml-[20%] 2xl:ml-[20%]">
       <header className="w-full h-[60px] p-3 flex items-center justify-between absolute top-0 right-0 left-0  text-white ">
         <span className="font-medium">Página Inicial</span>
         <StarIcon className="text-lg" />

@@ -17,19 +17,19 @@ export const WhatHappeningSideBar = () => {
         />
       </div>
 
-      <section className="w-full mt-2 bg-gray-700 rounded-xl flex flex-col ">
+      <section className="w-full mt-2 bg-gray-700 rounded-xl flex flex-col">
         <h2 className="font-bold text-white p-2">O que está acontecendo</h2>
 
         <div className="mt-4 hover:bg-gray-600 transition-all p-2">
           <div className="w-full cursor-pointer flex items-center ">
             <div className="w-full flex-1 flex flex-col">
               <div className="flex items-center  text-gray-300">
-                <span className=" text-[16px]">Eleições 20...</span>
-                <span className=" text-[16px]">Noite anterior</span>
+                <span className=" text-[16px]">Lorem</span>
+                <span className="ml-1 text-[16px]">• 1d</span>
               </div>
-              <p className="text-sm text-white font-bold">Futebol</p>
+              <p className="text-sm text-white font-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis optio dolores aperiam laudantium repellat. Voluptatibus ipsam asperiores facilis labore ducimus eos sequi officia impedit corporis neque. At nulla labore nisi?</p>
             </div>
-            <div className="h-[80px] w-[80px] rounded-md overflow-hidden">
+            <div className="h-[80px] w-[80px] self-start rounded-md overflow-hidden">
               <img
                 src={ProfileImage}
                 alt="news image"
@@ -40,19 +40,38 @@ export const WhatHappeningSideBar = () => {
           <div className="w-full text-[16px] mt-2 text-gray-300">
             <span>
               Assuntos do momento:{" "}
-              <strong className="text-blue-500 font-light">Tarciso</strong>
+              <strong className="text-blue-500 font-light">ipsum</strong>
             </span>
           </div>
+          
         </div>
 
-        <div className="mt-4 hover:bg-gray-600 transition-all p-2 overflow-hidden">
+        <div className=" hover:bg-gray-600 transition-all p-2 ">
           <div className="w-full cursor-pointer flex items-center ">
             <div className="w-full flex-1 flex flex-col">
               <div className="flex items-center text-gray-300">
-                <span className=" text-[16px]">Eleições 20...</span>
-                <span className=" text-[16px]">Noite anterior</span>
+                <span className=" text-[16px]">Lorem</span>
+                <span className="ml-1 text-[16px]">• LIVE</span>
               </div>
-              <p className="text-sm text-white font-bold">Futebol</p>
+              <p className="text-sm text-white font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque impedit nisi, culpa laborum ipsa eos!</p>
+            </div>
+            <div>
+              <DotsIcon className="text-gray-300 text-[24px] cursor-pointer" />
+            </div>
+          </div>
+          <div className="w-full text-[16px] mt-2 text-gray-300">
+            <span>20 mil tweets</span>
+          </div>
+        </div>
+
+        <div className=" hover:bg-gray-600 transition-all p-2">
+          <div className="w-full cursor-pointer flex items-center ">
+            <div className="w-full flex-1 flex flex-col">
+              <div className="flex items-center text-gray-300">
+                <span className=" text-[16px]">Lorem</span>
+                <span className="ml-1 text-[16px]">• LIVE</span>
+              </div>
+              <p className="text-sm text-white font-bold">Lorem</p>
             </div>
             <div>
               <DotsIcon className="text-gray-300 text-[24px] cursor-pointer" />
@@ -85,19 +104,19 @@ export const WhatHappeningSideBar = () => {
             </button>
           </div>
         </div>
-        <div className="mt-4 hover:bg-gray-400 transition-all p-2">
+        <div className="mt-4 hover:bg-gray-600 transition-all p-2 overflow-hidden">
           <div className="w-full cursor-pointer flex items-center ">
             <div className="h-[60px] w-[60px] rounded-full overflow-hidden">
               <img
                 src={ProfileImage}
-                alt="news image"
+                alt="profile image"
                 className="w-full h-full"
               />
             </div>
             <button className="ml-4 flex-1 h-[40px] bg-gray-700 border border-gray-300 text-white rounded-2xl text-[18px] font-medium flex items-center justify-center overflow-hidden">
-                <span className="w-full h-full flex items-center justify-center">
-              seguindo
-                </span>
+              <span className="w-full h-full flex items-center justify-center">
+                seguindo
+              </span>
             </button>
           </div>
         </div>

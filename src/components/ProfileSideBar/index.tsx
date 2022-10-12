@@ -19,7 +19,7 @@ import ProfileImage from "../../assets/profile.jpeg";
 
 export const ProfileSideBar = () => {
   return (
-    <div className="h-full w-[15%] 2xl:w-[20%] p-1">
+    <div className="h-full w-[15%] 2xl:w-[20%] p-1 absolute top-0 left-0 ">
       <div className="h-full w-full flex justify-between items-center flex-col">
         <div className="flex-1 w-full flex flex-col items-center 2xl:items-start">
           <div className="h-[60px] w-[60px] flex items-center justify-center rounded-full cursor-pointer text-white text-[35px] hover:bg-gray-700 transition-all mb-2">
@@ -41,13 +41,13 @@ export const ProfileSideBar = () => {
               Notificações
             </span>
           </div>
-          <div className="h-[60px] w-[60px] 2xl:w-full lg:p-2 flex items-center justify-center lg:justify-start rounded-full cursor-pointer text-white text-[35px] hover:bg-gray-700 transition-all mb-2">
+          <div className="h-[60px] w-[60px] 2xl:w-full lg:p-2 flex items-center justify-center lg:justify-start rounded-full cursor-pointer text-white text-[30px] hover:bg-gray-700 transition-all mb-2">
             <MailIcon />
             <span className="hidden 2xl:block ml-4 text-[25px]">Mensagens</span>
           </div>
-          <div className="h-[60px] w-[60px] 2xl:w-full lg:p-2 flex items-center justify-center lg:justify-start rounded-full cursor-pointer text-white text-[35px] hover:bg-gray-700 transition-all mb-2">
+          <div className="h-[60px] w-[60px] 2xl:w-full lg:p-2 flex items-center justify-center lg:justify-start rounded-full cursor-pointer text-white text-[30px] hover:bg-gray-700 transition-all mb-2">
             <BookIcon />
-            <span className="hidden 2xl:block ml-4 text-[25px]">Mensagens</span>
+            <span className="hidden 2xl:block ml-4 text-[25px]">Itens salvos</span>
           </div>
           <div className="h-[60px] w-[60px] 2xl:w-full lg:p-2 flex items-center justify-center lg:justify-start rounded-full cursor-pointer text-white text-[35px] hover:bg-gray-700 transition-all mb-2">
             <ListIcon />
